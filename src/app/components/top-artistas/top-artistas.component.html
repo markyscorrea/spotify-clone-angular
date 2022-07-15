@@ -1,0 +1,11 @@
+<span
+    class="titulo-md"
+>As 5+ MarX</span>
+
+<app-artista-item-imagem
+    *ngFor="let m of musicasArtista"
+    [imagemSrc]="m.album.imagemUrl"
+    [idsSongs]="m.id"
+>
+    {{ m.nome }}
+</app-artista-item-imagem>

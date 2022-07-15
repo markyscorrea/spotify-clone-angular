@@ -1,0 +1,30 @@
+@import 'variaveis.scss';
+
+:host {
+
+    .container {
+        cursor: pointer;
+        color: $preto-transparent-70;
+
+        &:hover {
+            background-color: $cor-fundo2;
+            color: $preto-transparent-30;
+        }
+    }
+
+    img{
+        width: 30px;
+        border-radius: 50%;
+        margin-top: 10px;
+    }
+
+    span {
+        font-size: .85rem;
+        align-self: center;
+        margin-left: 5px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+}
